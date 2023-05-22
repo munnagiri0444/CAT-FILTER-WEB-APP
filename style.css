@@ -1,0 +1,19 @@
+canvas{
+    border:5px double  aqua;
+    margin-top:50px;
+    box-shadow: 0px 0px 20px black;
+    animation-name: my_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes my_animation{
+from{
+    box-shadow: 5px 5px 5px rgb(5, 227, 8);
+
+}
+to{
+    box-shadow: 5px 5px 5px rgb(227, 5, 5);
+
+}
+
+}
